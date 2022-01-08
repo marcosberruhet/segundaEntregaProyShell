@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.logoShell{
+    height: 50px;
+    width: auto;
+    transition: 0.1s;
+}
+
+.logoShell:hover{
+    filter: blur(1px);
+    border-bottom: 1px solid red;
+
+}
+
+header{
+    background-color: rgb(218, 205, 25);
+    /* border: 5px solid blanchedalmond; */
+    border-bottom: 5px solid white;    
+}
+
+.navbar{
+    background-color: rgb(218, 205, 25);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navIndex li a{
+    font-size: 19px;
+    background-color: rgb(218, 205, 25);
+}
+
+.navIndex li a:hover{
+    color: lightslategray;
+}
+
+.navIndex li{
+    font-family: 'Electrolize', sans-serif;
+    /* font-family: 'Francois One', sans-serif; */
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagenPortada{
+
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+
+}
+
+.containerPortada:hover .imagenPortada{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.containerPortada{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.textoShellBox{
+    border-top: 10px solid white;
+    height: 70px;
+    font-family: 'Electrolize', sans-serif;
+    background-color: lightyellow;
+    line-height: 50px;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.btnStore{
+    font-family: 'Electrolize', sans-serif;
+    height: 50px;
+}
+
+.containerLatam{
+    background-color: lightyellow;
+    overflow: hidden;
+    align-content: center;
+    margin: auto;
+    border-top: 10px solid white;
+}
+
+.imagenLatam{
+    height: 400px;
+    background-image: url("imagenes/cards.png");
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    margin: auto;
+    /* border: 5px solid white; */
+
+}
+.imagenLatam:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+    overflow: hidden;
+
+}
+
+.textoLatam{
+
+    font-family: 'Electrolize', sans-serif;
+    /* font-family: 'Francois One', sans-serif; */
+    align-content: center;
+    text-align: center;
+    /* border: 5px solid white; */
+    padding-top: 30px;
+}
+.textoLatam h2{
+
+    background-color: rgb(218, 205, 25) ;
+    font-size: x-large;
+    text-align: center;
+}
+
+.textoLatam p{
+    text-decoration: none;
+}
+.textoLatam li{
+    font-size: medium;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.videoShell{
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    border: 5px solid white;
+    padding-top: 5px;
+    padding: 10px;
+}
+
+.textoConectate{
+    margin: 0;
+    font-family: 'Electrolize', sans-serif;
+    /* font-family: 'Francois One', sans-serif; */
+    text-align: center;
+    align-content: center;
+    /* border: 5px solid white; */
+    padding-top: 30px;
+}
+.textoConectate h2{
+    background-color: rgb(218, 205, 25);
+    font-size: x-large;
+    
+}
+.textoConectate p{
+    font-size: large;
+    line-height: 30px;
+}
+
+.textoOportunidades{
+    display: flex;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color: lightyellow;
+    height: 80px;
+}
+
+.btnOportunidades{
+    font-family: 'Electrolize', sans-serif;
+    height: 70px;
+
+}
+.btnOportunidades a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+.redSocial{
+    padding: 30px;
+    height: 140px;
+}
+
+.redSocial:hover{
+    filter: blur(2px);
+
+}
+
+.instagram{
+    height: 130px;
+}
+    
+.containerFooter{
+
+    /* border-top: 5px solid white;     */
+    display: flex;
+    height: 70px;
+    background-color: lightgrey;
+
+}
+.atencionCliente{
+
+    font-size: medium;
+    line-height: 70px;
+
+}
+footer a{
+    font-size: large;
+    margin: auto;
+    align-content: center;
+}
+
+
+
+/* estilo sección SERVICIOS */
+
+.containerEstacion{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.sectionServicios{
+    background-color: lightyellow;
+}
+
+.imagenEstacion{
+    height: 350px;
+    width: 100%;
+    background-image: url("/imagenes/gas-station-1161871_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.textoEstacion h2{
+    text-decoration: overline;
+    text-decoration-color: red;
+    padding-top: 10px;
+}
+.textoEstacion{
+    padding: 5px;
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+}
+
+.imagenLavado{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.imagenLubricante{
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+/* estilo sección SUCURSALES */
+
+
+.mainSucursal{
+    background-color: lightyellow;
+}
+
+
+.containerImagenSucursal{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenSucursales{
+    height: 350px;
+    width: 100%;
+    background-image: url(imagenes/luces-estacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid white;
+}
+
+.containerTextoSucursales{
+    background-color: lightyellow;
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+}
+
+
+.mapa{
+    padding: 20px;
+    border: 5px solid white;
+    background-color:  lightgray;
+    width: 500px;
+    height: 400px;
+}
+.mapa iframe{
+    padding-left: 45px;
+    width: 400px;
+    height: 300px;
+}
+.mapa p{
+    padding: 10px;
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+    text-decoration: 5px underline black;
+}
+
+/* estilo sección CONTACTO */
+.navContacto li a{
+    background-color:white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.navContacto li a:hover{
+    color: lightslategray;
+}
+
+.navContacto li{
+    font-family: 'Electrolize', sans-serif;
+    /* font-family: 'Francois One', sans-serif; */
+}
+.containerImagenContacto{
+    display: flex;
+    flex-direction: column;
+}
+.containerForm{
+    background-color: lightyellow;
+}
+
+.imagenContacto{
+    height: 500px;
+    width: 100%;
+    background-image: url(imagenes/refuel-2157211_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    border-bottom: 5px solid white;
+}
+
+/* .containerForm{
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+} */
+.textoContactenos{
+    font-size: x-large;
+    font-style: italic;
+}
+
+/* estilo sección QUIENES SOMOS */
+
+
+/* @media only screen and (min-width: 1196px ){ */
+
+    .imagenQs{
+        height: 350px;
+        width: 100%;
+        background-image: url(imagenes/surtidorNieveViejo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .imagenQsVertical{
+        height: 700px;
+        width: 100%;
+        background-image: url(imagenes/surtidorOld.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 5px solid white;
+    }
+    
+    .textoGrupoShell{
+        font-size: large;
+        font-family: 'Electrolize', sans-serif;
+        text-align: center;
+        border-top: 5px solid white;
+        border-right: 5px solid white;
+        justify-content: center;
+    
+    }
+    
+    .textoGrupoShell h2{
+        background-color: lightyellow;
+    }
+    
+    .textoGrupoShell p{
+        font-style: italic;
+        line-height: 45px;
+        padding-top: 15px;
+        align-content: center;
+    }
+
+    .textoGrupoShell img{
+        height: 150px;
+        width: auto;
+    }
+/* } */
+
